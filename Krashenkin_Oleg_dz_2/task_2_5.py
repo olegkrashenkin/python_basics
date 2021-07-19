@@ -28,7 +28,7 @@ print(price_format(price_list))
 # (доказать, что объект списка после сортировки остался тот же).
 print('Задание B:')
 id_before = id(price_list)
-print(price_format(sorted(price_list)))
+print(sorted(price_list))
 id_after = id(price_list)
 print('Сравнение id до и после сортировки =', id_before == id_after)
 
@@ -42,4 +42,4 @@ sort_price_v2.reverse()
 # Вывести цены пяти самых дорогих товаров.
 # Сможете ли вывести цены этих товаров по возрастанию, написав минимум кода?
 print('Задание D:')
-print(price_format(sorted(price_list, reverse=True)[4::-1]))
+print(sorted(price_list, reverse=True)[4::-1])
