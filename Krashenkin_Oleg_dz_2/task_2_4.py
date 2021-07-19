@@ -2,4 +2,4 @@ emp_list = ['инженер-конструктор Игорь', 'главный 
             'токарь высшего разряда нИКОЛАй', 'директор аэлита']
 for i in emp_list:
     space = i.rindex(' ') + 1
-    print('Привет', i[space:].capitalize() + '!')
+    print(f'Привет, {i[space:].capitalize()}!')')
