@@ -1,0 +1,3 @@
+PEpnA1h|['Printer', 'Epson', 'A101gh', '2020', 'laser', 'color']|
+SKokSH0|['Scanner', 'Kodak', 'SHG56700', '2019', 'flatbed', '300']|
+ABrrk5H|['AiO', 'Brother', 'k567GH', '2021', 'ink', 'mono', '60']|
